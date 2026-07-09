@@ -1,0 +1,33 @@
+{
+  "valid": [
+    { "username": "standard_user", "password": "secret_sauce" },
+    { "username": "problem_user", "password": "secret_sauce" },
+    { "username": "performance_glitch_user", "password": "secret_sauce" }
+  ],
+  "invalid": [
+    {
+      "case": "locked out user",
+      "username": "locked_out_user",
+      "password": "secret_sauce",
+      "expectedError": "Sorry, this user has been locked out."
+    },
+    {
+      "case": "wrong password",
+      "username": "standard_user",
+      "password": "wrong_password",
+      "expectedError": "Username and password do not match any user in this service"
+    },
+    {
+      "case": "empty username",
+      "username": "",
+      "password": "secret_sauce",
+      "expectedError": "Username is required"
+    },
+    {
+      "case": "empty password",
+      "username": "standard_user",
+      "password": "",
+      "expectedError": "Password is required"
+    }
+  ]
+}

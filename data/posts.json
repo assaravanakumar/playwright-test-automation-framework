@@ -1,0 +1,5 @@
+[
+  { "title": "Playwright API testing", "body": "Covers GET, POST, PUT, DELETE against a REST resource.", "userId": 1 },
+  { "title": "Data-driven scenario two", "body": "A second payload run through the same spec.", "userId": 2 },
+  { "title": "Data-driven scenario three", "body": "A third payload to prove looped parametrization.", "userId": 3 }
+]

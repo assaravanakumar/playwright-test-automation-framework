@@ -1,0 +1,5 @@
+[
+  { "firstName": "Ada", "lastName": "Lovelace", "postalCode": "94107" },
+  { "firstName": "Grace", "lastName": "Hopper", "postalCode": "10001" },
+  { "firstName": "Alan", "lastName": "Turing", "postalCode": "SW1A 1AA" }
+]
